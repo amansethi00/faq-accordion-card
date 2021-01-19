@@ -17,7 +17,10 @@ answer2.style.display="none";
 answer3.style.display="none";
 answer4.style.display="none";
     answer1.style.display="block";
-    
+    q2.style.fontWeight="normal";
+ q3.style.fontWeight="normal";
+ q4.style.fontWeight="normal";
+    q1.style.fontWeight ="bold";
 }
 function clickHandler2(){
     // const answer = document.querySelector("#answer2");
@@ -25,7 +28,10 @@ function clickHandler2(){
  answer1.style.display="none";
  answer3.style.display="none";
  answer4.style.display="none";
-    
+ q1.style.fontWeight="normal";
+ q3.style.fontWeight="normal";
+ q4.style.fontWeight="normal";
+    q2.style.fontWeight ="bold";
     answer2.style.display="block";
 }
 function clickHandler3(){
@@ -34,6 +40,10 @@ function clickHandler3(){
    answer1.style.display="none";
    answer4.style.display="none";
     answer3.style.display="block";
+    q2.style.fontWeight="normal";
+ q1.style.fontWeight="normal";
+ q4.style.fontWeight="normal";
+    q3.style.fontWeight ="bold";
 }
 function clickHandler4(){
     // const answer = document.querySelector("#answer4");
@@ -42,6 +52,10 @@ function clickHandler4(){
    answer3.style.display="none";
    answer2.style.display="none";
     answer4.style.display="block";
+    q1.style.fontWeight="normal";
+ q3.style.fontWeight="normal";
+ q2.style.fontWeight="normal";
+    q4.style.fontWeight ="bold";
 }
 // for(let i=0;i< questions.length;i++){
     

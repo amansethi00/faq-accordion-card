@@ -8,7 +8,7 @@ html {
   font-family: "Kumbh Sans", sans-serif;
 }
 body {
-  height: 50rem;
+  height: 53rem;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 #container {
@@ -70,4 +70,13 @@ body {
 }
 .question:hover .answers {
   display: block;
+}
+.line {
+  border: 0.5px solid var(--dark-grayishblue);
+  width: 22rem;
+  margin: 1rem;
+}
+.attribution {
+  margin-top: 2rem;
+  color: white;
 }
