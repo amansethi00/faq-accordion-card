@@ -35,8 +35,8 @@ body {
 #faq-container {
   width: 35rem;
   height: 40rem;
-  background-color: turquoise;
-
+  background-color: white;
+  border-radius: 2rem;
   /* align-self: center; */
   /* justify-self: flex-end; */
 }
