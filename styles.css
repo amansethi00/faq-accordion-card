@@ -18,7 +18,7 @@ body {
 
 #container {
   height: auto;
-  max-width: 75rem;
+  max-width: 80%;
   margin: auto;
   padding: auto;
   background-color: white;
@@ -42,6 +42,7 @@ body {
 @media (max-width: 768px) {
   #container {
     align-content: center;
+    margin-top: 10rem;
   }
   #women-image-container {
     grid-column: 1 / span 2;
@@ -55,6 +56,12 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  #background-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+  }
   #faq-container {
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +70,14 @@ body {
   }
   #illustration-box {
     display: none;
+  }
+  #header {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: -1rem;
+    /* padding-left: 1rem; */
   }
 }
 /* for desktop */
@@ -88,6 +103,13 @@ body {
     background-position: left -550px top -300px;
     background-repeat: no-repeat;
   }
+  #header {
+    margin-top: 5rem;
+    padding-left: 1rem;
+  }
+  #background-mobile {
+    display: none;
+  }
 }
 
 #faq-container {
@@ -98,10 +120,7 @@ body {
   /* align-self: center; */
   /* justify-self: flex-end; */
 }
-#header {
-  margin-top: 5rem;
-  padding-left: 1rem;
-}
+
 .questions {
   /* display: flex;
   justify-content: space-between; */
