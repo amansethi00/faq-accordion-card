@@ -46,6 +46,10 @@ body {
   }
   #women-image-container {
     grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   #women-image {
     display: none;
@@ -58,7 +62,7 @@ body {
   }
   #background-mobile {
     display: block;
-    margin-left: auto;
+    margin-left: 80px;
     margin-right: auto;
     margin-top: -90px;
   }
@@ -113,7 +117,7 @@ body {
 }
 
 #faq-container {
-  width: 25rem;
+  max-width: auto;
   height: 40rem;
   background-color: white;
   border-radius: 2rem;
